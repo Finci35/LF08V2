@@ -2,12 +2,12 @@ package Uebung;
 
 public class Zahlendreieck {
     public static void main(String[] args) {
-        for (int x = 0; x<=10; x++){
+        for (int x = 0; x <= 10; x++) {
             String output = "";
-            for (int i = 0; i<x; i++){
+            for (int i = 0; i < x; i++) {
                 output += i + " ";
             }
-            System.out.println(output );
+            System.out.println(output);
         }
     }
 }
