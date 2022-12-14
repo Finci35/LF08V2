@@ -1,6 +1,6 @@
 package Uebung;
 
-public class Zahlenraten2 {
+public class Zahlendreieck2 {
     public static void main(String[] args) {
         int z = 0;
         String ausgabe = "";
