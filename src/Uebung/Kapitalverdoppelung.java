@@ -22,7 +22,7 @@ public class Kapitalverdoppelung {
         frmt.setMaximumFractionDigits(2);
 
         do {
-            VK = VK * (1 + ZS / 200);
+            VK = VK * (1 + ZS / 100);
             jahr = jahr + 1;
         } while (VK < 2 * SK);
         System.out.println("Kapital: " + frmt.format(VK) + "€");
